@@ -11,9 +11,9 @@ Webtori is a simple and flexible script to automatically update webring links. I
 To install, copy the [webtori.js](https://github.com/vqbc/webtori/blob/main/webtori.js) file to your root directory, and add a GitHub Action (or its equivalent with tools like Heroku CI) with the script in [main.yaml](https://github.com/vqbc/webtori/blob/main/main.yml). If you’d like, you can also add the axios and cheerio modules to your package.json file as dependencies, which makes installing them in the script automatic (so you can delete two lines of code):
 ```js
 {
-   // other stuff,
+   // other stuff
   "dependencies": {
-    //other dependencies,
+    // other dependencies
     "axios": "^0.27.2",
     "cheerio": "^1.0.0-rc.12",
     // ...
