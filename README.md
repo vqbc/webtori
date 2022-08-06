@@ -23,4 +23,4 @@ To install, copy the [webtori.js](https://github.com/vqbc/webtori/blob/main/webt
 }
   ```
 
-Then have all sites in the webring add ID's `wr-link-prev`, `wr-link-next`, etc. to the `<a>` links of the webring. This will allow each site to automatically scrape and update their own links accordingly. Enjoy!
+Then have all sites in the webring add ID's `wr-link-prev`, `wr-link-next`, etc. to the `<a>` links of the webring in their HTML. This will allow each site to automatically scrape and update their own links accordingly. Enjoy!
