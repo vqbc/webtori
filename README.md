@@ -1,4 +1,4 @@
-<h1 align="center">Webtori - simple, versatile site linking</h1>
+<h1 align="center">Webtori — simple, versatile site linking</h1>
 
 Are you tired of centralized databases? Manually updating links? Linear topological structures? Try Webtori!!
 
