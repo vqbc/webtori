@@ -1,4 +1,5 @@
 <h1 align="center">Welcome to Webtori</h1>
+
 Are you tired of centralized databases? Manually updating links? Linear topological structures? Try Webtori!!
 
 ![Webtori banner image. It has a big colored torus and the caption “go beyond webrings”.](https://cdn.discordapp.com/attachments/575809098923376650/1005032062111195237/Example_torus.webp)
