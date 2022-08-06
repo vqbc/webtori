@@ -8,3 +8,4 @@ Webtori is a simple and flexible script to automatically update webring links. I
 ![The view from inside a 3-torus. It is like a room covered in mirrors.](https://upload.wikimedia.org/wikipedia/commons/d/db/3-Manifold_3-Torus.png)
 
 ## Installation
+To install, copy the [webtori.js](https://github.com/vqbc/webtori/blob/main/webtori.js) file to your root directory, and add a GitHub Action (or its equivalent with tools like Heroku CI) with the script in [main.yaml](https://github.com/vqbc/webtori/blob/main/main.yml). If you’d like, you can also add the axios and cheerio modules to your package.json file as dependencies, which makes installing them in the script automatic (so you can delete two lines of code).
