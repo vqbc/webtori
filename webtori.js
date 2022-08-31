@@ -16,8 +16,13 @@
       await Promise.all(
         $("*[id*='wr-link-']")
           .map(async function () {
-            let theirPage = await axios.get($(this).attr("href"));
-            const $n = cheerio.load(theirPage.data); /* get neighbor page DOM */
+            let $n;
+            try {
+              let theirPage = await axios.get($(this).attr("href"));
+              $n = cheerio.load(theirPage.data); /* get neighbor page DOM */
+            } catch (e) {
+              $n = cheerio.load("");
+            }
 
             return [
               $(this)
